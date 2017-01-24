@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Photo Editor</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="choose_from_sd">Open Picture</string>
+    <string name="image_uri_flag">IMAGE_URI</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="brightness">Brightness</string>
+    <string name="crop">Crop</string>
+    <string name="rotate">Rotate</string>
+    <string name="rotate_right">Rotate Right</string>
+    <string name="rotate_left">Rotate Left</string>
+    <string name="save">Save</string>
+    <string name="processed_image">processed image</string>
+    <string name="image_desc">processed image</string>
+    <string name="splash_desc">splash</string>
+    <string name="filters">Filters</string>
+    <string name="photo_saved_info">Photo Saved</string>
+    <string name="select">Select</string>
+    <string name="share">Share</string>
+    <string name="admob_banner"></string>
+    <string name="admob_interstitial"></string>
+
+</resources>

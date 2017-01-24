@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/app_background"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/choose_from_sd_button"
+        style="@style/ButtonStyle"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_margin="30dp"
+        android:background="#00000000"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitCenter"
+        android:src="@drawable/photos_b" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/choose_from_sd"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/take_picture_button"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_margin="30dp"
+        android:background="#00000000"
+        android:contentDescription="@string/take_picture"
+        android:scaleType="fitCenter"
+        android:src="@drawable/camera_b" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/take_picture"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>
